@@ -5,3 +5,4 @@ Various utility methods that I find useful when working in javascript which don'
 ## Utilities
 
 * classSet.js - React className helper.
+* animationFrame.js - Cross-browser requestAnimationFrame.
