@@ -1,0 +1,23 @@
+{
+  "name": "js-utils",
+  "version": "1.0.0",
+  "description": "Various js utils.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinGrandon/js-utils.git"
+  },
+  "author": "Kevin Grandon <kevingrandon@yahoo.com>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/KevinGrandon/js-utils/issues"
+  },
+  "homepage": "https://github.com/KevinGrandon/js-utils#readme"
+}
