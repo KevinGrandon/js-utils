@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "description": "Various js utils.",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "babel": "^6.3.26",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "babel-register": "^6.4.3"
+  },
   "devDependencies": {
     "mocha": "^2.4.5"
   },
   "scripts": {
-    "test": "test"
+    "test": "mocha --compilers js:babel-register test/*_test.js"
   },
   "repository": {
     "type": "git",
